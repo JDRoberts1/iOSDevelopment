@@ -1,0 +1,156 @@
+[
+  {
+    "class_name": "artBEG",
+    "class_id": 48902,
+    "class_full": false,
+    "student_names": [
+      "Krista Rios",
+      "Jennie Austin",
+      "Kristina Frank",
+      "Kelli Garza",
+      "Sylvia Rice"
+    ]
+  },
+  {
+    "class_name": "pianoBEG",
+    "class_id": 47982,
+    "class_full": true,
+    "student_names": [
+      "Roy Lloyd",
+      "Bobby Perez",
+      "Betsy Hanson",
+      "Percy Martin",
+      "Brad Dennis",
+      "Bennie Morris",
+      "Omar Anderson",
+      "Harvey Schneider",
+      "Shari Allen",
+      "Terrell Hampton"
+    ]
+  },
+  {
+    "class_name": "medicineBEG",
+    "class_id": 98576,
+    "class_full": false,
+    "student_names": [
+      "Todd Potter",
+      "Bernard Hawkins",
+      "Gladys Willis",
+      "Gabriel Ross",
+      "Sylvia Rice"
+    ]
+  },
+  {
+    "class_name": "danceADV",
+    "class_id": 45922,
+    "class_full": false,
+    "student_names": [
+      "Krista Rios",
+      "Jennie Austin",
+      "Kristina Frank"
+    ]
+  },
+  {
+    "class_name": "speakingBEG",
+    "class_id": 98674,
+    "class_full": true,
+    "student_names": [
+      "Krista Rios",
+      "Jennie Austin",
+      "Kristina Frank",
+      "Kelli Garza",
+      "Sylvia Rice",
+      "Yvette Young",
+      "Kenny Palmer",
+      "Marjorie Bates",
+      "Brad Dennis",
+      "Bennie Morris"
+    ]
+  },
+  {
+    "class_name": "programmingADV",
+    "class_id": 56749,
+    "class_full": false,
+    "student_names": [
+      "Kenny Palmer",
+      "Marjorie Bates",
+      "Brad Dennis",
+      "Bennie Morris",
+      "Bobby Perez",
+      "Betsy Hanson",
+      "Percy Martin"
+    ]
+  },
+  {
+    "class_name": "sportsINTER",
+    "class_id": 32538,
+    "class_full": false,
+    "student_names": [
+      "Brad Dennis",
+      "Bennie Morris",
+      "Bobby Perez",
+      "Percy Martin",
+      "Kenny Palmer",
+      "Gabriel Ross",
+      "John Ward"
+    ]
+  },
+  {
+    "class_name": "sportsPro",
+    "class_id": 89384,
+    "class_full": false,
+    "student_names": [
+      "Brad Dennis",
+      "Bennie Morris",
+      "Bobby Perez",
+      "Percy Martin"
+    ]
+  },
+  {
+    "class_name": "artPEO",
+    "class_id": 86388,
+    "class_full": true,
+    "student_names": [
+      "Todd Potter",
+      "Bernard Hawkins",
+      "Gladys Willis",
+      "Gabriel Ross",
+      "Sylvia Rice",
+      "Krista Rios",
+      "Jennie Austin",
+      "Kristina Frank",
+      "Omar Anderson",
+      "Harvey Schneider"
+    ]
+  },
+  {
+    "class_name": "artINTERM",
+    "class_id": 23422,
+    "class_full": false,
+    "student_names": [
+      "Brad Dennis",
+      "Bennie Morris",
+      "Omar Anderson",
+      "Harvey Schneider",
+      "Shari Allen",
+      "Terrell Hampton"
+    ]
+  },
+  {
+    "class_name": "programmingPro",
+    "class_id": 45333,
+    "class_full": true,
+    "student_names": [
+      "Tami Carson",
+      "Harold Munoz",
+      "Laurence Byrd",
+      "Stewart Bell",
+      "Frederick Cain",
+      "Micheal Sandoval",
+      "Kelli Bryan",
+      "Bert Wilkins",
+      "Trevor Duncan",
+      "Antonio Sanders"
+    ]
+  }
+]
