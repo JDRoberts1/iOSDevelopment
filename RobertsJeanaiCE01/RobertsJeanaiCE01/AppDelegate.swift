@@ -2,7 +2,6 @@
 //  AppDelegate.swift
 //  RobertsJeanaiCE01
 //
-//  Created by Nai Roberts on 7/2/21.
 //
 
 import UIKit

@@ -2,7 +2,10 @@
 //  ViewController.swift
 //  RobertsJeanaiCE02
 //
-//  Created by Nai Roberts on 6/8/21.
+// Jeanai Roberts
+// CE01
+// 08/02/2021
+// C202108
 //
 
 import UIKit
@@ -142,7 +145,7 @@ class ViewController: UIViewController {
             for employer in employees[currentIndex].previousEmployers{
                 display += "\r\nCompany: \(employer.companyName.description) \r\nResponsibilities:"
                 for r in employer.responsibilities{
-                    display += "\(r) "
+                    display += "\(r) \r\n"
                 }
             }
             
