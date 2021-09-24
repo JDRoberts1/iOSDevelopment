@@ -52,14 +52,17 @@ extension TableViewController{
                             if let members = obj["members"] as? [[String: Any]]{
                                 for member in members{
                                     guard let id = member["id"] as? String,
-                                    let title = member["title"] as? String,
                                     let firstName = member["first_name"] as? String,
                                     let lastName = member["last_name"] as? String,
                                     let party = member["party"] as? String,
                                     let state = member["state"] as? String
                                     else {assertionFailure(); return}
                                     
-                                    self.legislators.append(Legislator(id: id, title: title, firstName: firstName, lastName: lastName, party: party, state: state))
+                                    if let title = member["title"] as? String{
+                                        self.legislators.append(Legislator(id: id, title: title, firstName: firstName, lastName: lastName, party: party, state: state))
+                                    }
+                                    
+                                    
                                 }
                                 
                             }

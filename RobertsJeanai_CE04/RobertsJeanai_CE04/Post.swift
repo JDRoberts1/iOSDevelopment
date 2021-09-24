@@ -1,11 +1,10 @@
 //  Jeanai Roberts
-//  C202107 01
+//  C202108 01
 //  Code Exercise 04
 //
 //  Post.swift
 //  RobertsJeanai_CE04
 //
-//  Created by Nai Roberts on 7/18/21.
 //
 
 import Foundation

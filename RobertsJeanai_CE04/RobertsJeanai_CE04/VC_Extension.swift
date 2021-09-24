@@ -1,11 +1,10 @@
 //  Jeanai Roberts
-//  C202107 01
+//  C202108 01
 //  Code Exercise 04
 //
 //  VC_Extension.swift
 //  RobertsJeanai_CE04
 //
-//  Created by Nai Roberts on 7/18/21.
 //
 
 import Foundation
@@ -45,15 +44,16 @@ extension ViewController{
                             guard let post = child["data"] as? [String: Any]
                             else{assertionFailure(); return}
                             
-                            do{
-                                // check if thumnail is empty before adding to Posts
-                                if post["thumbnail"] as? String != "default"{
+                            if post["thumbnail"] as? String != "default"{
+                                do{
                                     try self.posts.append(Post(redditPost: post))
                                 }
+                                catch{
+                                    assertionFailure("Failed to create post")
+                                }
                             }
-                            catch{
-                                assertionFailure("Failed to create post")
-                            }
+                            
+                            
                         }
                         
                     }

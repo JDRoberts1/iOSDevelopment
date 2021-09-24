@@ -16,6 +16,14 @@
 		9F4E7A2326A841FA00131BC9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4E7A2226A841FA00131BC9 /* Store.swift */; };
 		9F4E7A2526A84DA100131BC9 /* StoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4E7A2426A84DA100131BC9 /* StoreTableViewController.swift */; };
 		9F4E7A2926A906F800131BC9 /* StoreJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F4E7A2826A906F800131BC9 /* StoreJSON.json */; };
+		9FDC031D26C9653D00CA8DD9 /* storeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC031C26C9653D00CA8DD9 /* storeTableViewCell.swift */; };
+		9FDC031F26C970B400CA8DD9 /* storeHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FDC031E26C970B400CA8DD9 /* storeHeader.xib */; };
+		9FDC032126C9741500CA8DD9 /* storeViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC032026C9741500CA8DD9 /* storeViewHeader.swift */; };
+		9FDC032326CD360900CA8DD9 /* storeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC032226CD360900CA8DD9 /* storeItem.swift */; };
+		9FDC032526CEE58F00CA8DD9 /* needToBuyHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FDC032426CEE58F00CA8DD9 /* needToBuyHeader.xib */; };
+		9FDC032726CEE79B00CA8DD9 /* needToPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC032626CEE79B00CA8DD9 /* needToPurchase.swift */; };
+		9FDC032926CF2C8000CA8DD9 /* PurchasedHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FDC032826CF2C8000CA8DD9 /* PurchasedHeader.xib */; };
+		9FDC032B26CF2EE000CA8DD9 /* PurchasedItemsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC032A26CF2EE000CA8DD9 /* PurchasedItemsHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +38,14 @@
 		9F4E7A2226A841FA00131BC9 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		9F4E7A2426A84DA100131BC9 /* StoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTableViewController.swift; sourceTree = "<group>"; };
 		9F4E7A2826A906F800131BC9 /* StoreJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StoreJSON.json; sourceTree = "<group>"; };
+		9FDC031C26C9653D00CA8DD9 /* storeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeTableViewCell.swift; sourceTree = "<group>"; };
+		9FDC031E26C970B400CA8DD9 /* storeHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = storeHeader.xib; sourceTree = "<group>"; };
+		9FDC032026C9741500CA8DD9 /* storeViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeViewHeader.swift; sourceTree = "<group>"; };
+		9FDC032226CD360900CA8DD9 /* storeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeItem.swift; sourceTree = "<group>"; };
+		9FDC032426CEE58F00CA8DD9 /* needToBuyHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = needToBuyHeader.xib; sourceTree = "<group>"; };
+		9FDC032626CEE79B00CA8DD9 /* needToPurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = needToPurchase.swift; sourceTree = "<group>"; };
+		9FDC032826CF2C8000CA8DD9 /* PurchasedHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PurchasedHeader.xib; sourceTree = "<group>"; };
+		9FDC032A26CF2EE000CA8DD9 /* PurchasedItemsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedItemsHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +62,8 @@
 		9F4E79FE26A83E0B00131BC9 = {
 			isa = PBXGroup;
 			children = (
+				9FDC031E26C970B400CA8DD9 /* storeHeader.xib */,
+				9FDC032026C9741500CA8DD9 /* storeViewHeader.swift */,
 				9F4E7A0926A83E0B00131BC9 /* RobertsJeanaiCE06 */,
 				9F4E7A0826A83E0B00131BC9 /* Products */,
 			);
@@ -67,8 +85,14 @@
 				9F4E7A0C26A83E0B00131BC9 /* SceneDelegate.swift */,
 				9F4E7A1026A83E0B00131BC9 /* Main.storyboard */,
 				9F4E7A2426A84DA100131BC9 /* StoreTableViewController.swift */,
+				9FDC032426CEE58F00CA8DD9 /* needToBuyHeader.xib */,
+				9FDC032826CF2C8000CA8DD9 /* PurchasedHeader.xib */,
+				9FDC032A26CF2EE000CA8DD9 /* PurchasedItemsHeader.swift */,
+				9FDC032626CEE79B00CA8DD9 /* needToPurchase.swift */,
 				9F4E7A1E26A83EFA00131BC9 /* TableViewController.swift */,
+				9FDC031C26C9653D00CA8DD9 /* storeTableViewCell.swift */,
 				9F4E7A2226A841FA00131BC9 /* Store.swift */,
+				9FDC032226CD360900CA8DD9 /* storeItem.swift */,
 				9F4E7A1326A83E0C00131BC9 /* Assets.xcassets */,
 				9F4E7A1526A83E0C00131BC9 /* LaunchScreen.storyboard */,
 				9F4E7A1826A83E0C00131BC9 /* Info.plist */,
@@ -133,9 +157,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FDC032926CF2C8000CA8DD9 /* PurchasedHeader.xib in Resources */,
 				9F4E7A1726A83E0C00131BC9 /* LaunchScreen.storyboard in Resources */,
 				9F4E7A2926A906F800131BC9 /* StoreJSON.json in Resources */,
+				9FDC032526CEE58F00CA8DD9 /* needToBuyHeader.xib in Resources */,
 				9F4E7A1426A83E0C00131BC9 /* Assets.xcassets in Resources */,
+				9FDC031F26C970B400CA8DD9 /* storeHeader.xib in Resources */,
 				9F4E7A1226A83E0B00131BC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,8 +177,13 @@
 				9F4E7A2326A841FA00131BC9 /* Store.swift in Sources */,
 				9F4E7A0B26A83E0B00131BC9 /* AppDelegate.swift in Sources */,
 				9F4E7A1F26A83EFA00131BC9 /* TableViewController.swift in Sources */,
+				9FDC032B26CF2EE000CA8DD9 /* PurchasedItemsHeader.swift in Sources */,
 				9F4E7A0D26A83E0B00131BC9 /* SceneDelegate.swift in Sources */,
 				9F4E7A2526A84DA100131BC9 /* StoreTableViewController.swift in Sources */,
+				9FDC031D26C9653D00CA8DD9 /* storeTableViewCell.swift in Sources */,
+				9FDC032326CD360900CA8DD9 /* storeItem.swift in Sources */,
+				9FDC032126C9741500CA8DD9 /* storeViewHeader.swift in Sources */,
+				9FDC032726CEE79B00CA8DD9 /* needToPurchase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

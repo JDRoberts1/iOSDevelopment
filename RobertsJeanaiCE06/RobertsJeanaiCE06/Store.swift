@@ -11,7 +11,7 @@ class Store{
     
     // Stored Properties
     let storeName: String
-    let storeItems: [String]
+    var storeItems: [StoreItem]!
     
     // Computed Properties
     var coutOfItems: Int{
@@ -19,8 +19,10 @@ class Store{
         return storeItems.count
     }
     
+    
+    
     // Initializer
-    init(storeName: String, storeItems: [String]) {
+    init(storeName: String, storeItems: [StoreItem]? = nil) {
         self.storeName = storeName
         self.storeItems = storeItems
     }

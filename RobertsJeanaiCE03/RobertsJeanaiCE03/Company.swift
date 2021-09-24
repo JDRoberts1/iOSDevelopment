@@ -2,8 +2,10 @@
 //  Company.swift
 //  RobertsJeanaiCE03
 //
-//  Created by Nai Roberts on 8/3/21.
-//
+// Jeanai Roberts
+// CE03
+// c202108
+
 
 import Foundation
 

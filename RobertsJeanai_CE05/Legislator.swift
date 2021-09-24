@@ -20,12 +20,12 @@ class Legislator{
     
     // stored properties
     let id: String
-    let title : String
+    let title : String!
     let firstName: String
     let lastName: String
     let party: String
     let state: String
-    var legisImage: UIImage! = nil
+    var legisImage: String
     
     // computed properties
     var fullName: String{
@@ -36,7 +36,7 @@ class Legislator{
         return "\(party)" + "-" + state
     }
     
-    init(id: String, title: String, firstName: String, lastName: String, party: String, state: String) {
+    init(id: String, title: String? = nil, firstName: String, lastName: String, party: String, state: String) {
         self.id = id
         self.title = title
         self.firstName = firstName
@@ -46,15 +46,7 @@ class Legislator{
         
         let imgString = "https://theunitedstates.io/images/congress/225x275/" + id + ".jpg"
         
-        if let url = URL(string: imgString){
-            do{
-                let img = try Data(contentsOf: url)
-                self.legisImage = UIImage(data: img)
-            }
-            catch{
-                print(error.localizedDescription)
-            }
-        }
+        self.legisImage = imgString
         
     }
     

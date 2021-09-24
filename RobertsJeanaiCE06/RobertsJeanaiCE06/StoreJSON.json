@@ -1,6 +1,6 @@
-{
-  "store1": {
-    "storeName": "H-E-B",
+[
+  {
+    "storename": "H-E-B",
     "items": [
       "cookies",
       "chicken",
@@ -9,8 +9,8 @@
       "milk"
     ]
   },
-  "store2": {
-    "store": "Wal-Mart",
+  {
+    "storename": "Wal-Mart",
     "items": [
       "starwberries",
       "pineapples",
@@ -19,8 +19,8 @@
       "dragonfruit"
     ]
   },
-  "store3": {
-    "store_Name": "WholeFoods",
+  {
+    "storename": "WholeFoods",
     "items": [
       "blueberry muffins",
       "flour",
@@ -29,4 +29,4 @@
       "popcorn"
     ]
   }
-}
+]
